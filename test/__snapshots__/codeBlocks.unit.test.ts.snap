@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code Block Syntax > Headers 1`] = `
+"<!-- .slide: class=\\"drop\\" -->
+<div class=\\"\\" style=\\"position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center\\" absolute=\\"true\\">
+
+\`\`\`
+USER $USER_NAME:$USER_NAME
+\`\`\`
+
+The above does not show backticks
+</div>"
+`;
+
+exports[`Code Block Syntax > Headers 2`] = `
+"<!-- .slide: class=\\"drop\\" -->
+<div class=\\"\\" style=\\"position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center\\" absolute=\\"true\\">
+
+\`\`\`
+USER \`$USER_NAME:$\`USER_NAME
+\`\`\`
+
+The above does show backticks
+</div>"
+`;
+
+exports[`Code Block Syntax > Headers 3`] = `
+"<!-- .slide: class=\\"drop\\" -->
+<div class=\\"\\" style=\\"position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center\\" absolute=\\"true\\">
+
+\`\`\`
+USER $USER_NAME:$USER_NAME
+\`\`\`
+
+The above does not show backticks
+</div>"
+`;
