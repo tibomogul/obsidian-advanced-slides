@@ -1,6 +1,5 @@
 import { ObsidianMarkdownPreprocessor } from 'src/obsidianMarkdownPreprocessor';
-import { when } from 'ts-mockito';
-import { MockedObsidianUtils, obsidianUtils as utilsInstance } from './__mocks__/mockObsidianUtils';
+import { obsidianUtils as utilsInstance } from './__mocks__/mockObsidianUtils';
 import { prepare } from './testUtils';
 
 test('Code Block Syntax > Headers', () => {
